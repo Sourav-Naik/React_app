@@ -1,5 +1,5 @@
 import React from "react";
-
+import PropTypes from "prop-types";
 export default function ItemFunction(props) {
   return (
     <div className="col">
@@ -11,3 +11,8 @@ export default function ItemFunction(props) {
     </div>
   );
 }
+ItemFunction.propTypes = {
+  link: PropTypes.string.isRequired,
+  img: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+};
