@@ -13,7 +13,7 @@ export default function Items6() {
         <ItemFunction title="Furniture" img={furniture_img} link="/" />
         <ItemFunction title="Bags" img={bags_img} link="/" />
         <ItemFunction title="Mobiles" img={smartphone_img} link="/" />
-        <ItemFunction title="Grocery" img={clothing_img} link="/" />
+        <ItemFunction title="Clothes" img={clothing_img} link="/" />
         <ItemFunction title="Laptops" img={laptop_img} link="/" />
       </div>
     </div>

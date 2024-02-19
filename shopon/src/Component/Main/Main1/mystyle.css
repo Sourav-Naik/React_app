@@ -1,0 +1,14 @@
+.hori>.row { 
+    overflow-x: scroll; 
+    /* white-space: nowrap;  */
+    scroll-behavior:smooth;
+
+}
+.hori>.row::-webkit-scrollbar {
+    display: none;
+}
+
+.items{
+    max-height: 200px;
+    max-width: 200px;
+}
