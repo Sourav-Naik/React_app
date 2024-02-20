@@ -1,14 +1,21 @@
-.hori>.row { 
-    overflow-x: scroll; 
-    /* white-space: nowrap;  */
-    scroll-behavior:smooth;
+.hori > .row {
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+.hori {
+  min-width: 700px;
+}
+.hori > .row::-webkit-scrollbar {
+  display: none;
+}
+.scroll {
+  background: whitesmoke;
+  cursor: pointer;
+  opacity: 80%;
+  padding: 30px 8px;
+  
+}
+.hidden {
+    visibility: hidden;
+}
 
-}
-.hori>.row::-webkit-scrollbar {
-    display: none;
-}
-
-.items{
-    max-height: 200px;
-    max-width: 200px;
-}
