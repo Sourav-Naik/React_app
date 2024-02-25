@@ -12,8 +12,7 @@
   background: whitesmoke;
   cursor: pointer;
   opacity: 80%;
-  padding: 30px 8px;
-  
+  padding: 30px 6px;
 }
 .hidden {
     visibility: hidden;

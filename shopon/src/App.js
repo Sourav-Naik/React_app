@@ -4,11 +4,11 @@ import Navbar from './Component/Header/Navbar/Navbar';
 function App() {
   return (
     <div className="App d-flex flex-column">
-      <div>
+      <div id="Navbar">
         <Navbar></Navbar>
       </div>
 
-      <div className="main">
+      <div id="Main">
         <Main1 />
       </div>
       <div></div>
