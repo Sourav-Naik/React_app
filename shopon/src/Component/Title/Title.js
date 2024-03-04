@@ -1,10 +1,13 @@
 import React from "react";
-
-export default function Title() {
+import { Link } from "react-router-dom";
+export default function Title(props) {
   return (
-    <a className="navbar-brand fw-semibold m-0 me-1 fs-3" href="/">
-      <em>Shop</em>
-      <em className="text-info fw-bold">On</em>
-    </a>
+    <Link to="/"
+      className={`navbar-brand text-${
+        props.mode === "light" ? "white" : "info"
+      } fw-semibold m-0 me-1 fs-4`}
+    >
+     ShopOn
+    </Link>
   );
 }
